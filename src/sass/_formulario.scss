@@ -1,0 +1,71 @@
+@import 'variables';
+
+.formulario{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .bloque{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column: 1 / 3;
+        .item{
+            label{
+                color: $morado-oscuro;
+                font-family: $dancing;
+                font-weight: $bold;
+                font-size: 42px;
+            }
+            input{
+                margin-top: 2px;
+                border-radius: 55px;
+                padding: 14px;
+                outline: none;
+                font-family: $lato;
+                font-size: 14px;
+                font-weight: $regular;
+                margin-right: 10px;
+                color: $morado-oscuro;
+                border: 3px solid $morado-oscuro;
+                &::placeholder{
+                    color: $morado-oscuro;
+                    font-size: 12px;
+                }
+            }
+            select{
+                border-radius: 55px;
+                padding: 14px;
+                outline: none;
+                font-family: $lato;
+                font-size: 14px;
+                font-weight: $regular;
+                margin-right: 10px;
+                color: $morado-oscuro;
+                border: 3px solid $morado-oscuro;
+                &::placeholder{
+                    color: $morado-oscuro;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    button{
+        margin-top: 55px;
+        border-radius: 55px;
+        padding: 20px;
+        cursor: pointer;
+        font-family: $lato;
+        font-weight: $bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        outline: none;
+        font-size: 25px;
+        background: $morado;
+        color: $blanco;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

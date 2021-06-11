@@ -1,0 +1,73 @@
+@import 'variables';
+
+//Header Inicio
+.header-uno{
+    height: 100vh;
+    background: url('../img/Header Inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    h1{
+        color: $blanco;
+        font-family: $dancing;
+        font-weight: $bold;
+        font-size: 100px;
+        float: right;
+        margin-top: 32rem;
+        margin-right: 52px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-uno{
+        h1{
+            font-size: 59px;
+            margin-top: 28rem;
+            margin-right: 1rem;
+        }
+    }
+}
+
+//Header Acerca de
+.header-dos{
+    height: 100vh;
+    background: url('../img/Header Acerca de.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    h1{
+        color: $blanco;
+        font-family: $dancing;
+        font-weight: $bold;
+        font-size: 100px;
+        float: right;
+        margin-top: 22rem;
+        margin-right: 52px;
+    }
+    p{
+        width: 80%;
+        color: $blanco;
+        font-family: $lato;
+        font-weight: $regular;
+        font-size: 32px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 52px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-dos{
+        h1{
+            font-size: 49px;
+            margin-top: 25rem;
+            margin-right: 1rem;
+        }
+        p{
+            width: 95%;
+            font-size: 16px;
+            margin-top: 8px;
+            margin-right: 1rem;
+        }
+    }
+}

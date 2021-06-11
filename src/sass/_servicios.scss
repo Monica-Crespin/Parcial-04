@@ -1,0 +1,422 @@
+@import 'variables';
+
+.servicios{
+    margin-top: 40px;
+    margin-left: 80px;
+    .contenedor-servicios{
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        .item01{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Vacaciones.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item02{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Visitas guiadas.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 61px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item03{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Cruceros.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item04{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Hoteles.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item05{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Vuelos.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item06{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Turismo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item07{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_De lujo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 65px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item08{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Para estudiantes.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 51px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+        .item09{
+            width: 400px;
+            height: 400px;
+            background: url('../img/Servicios_Para la familia.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+            .texto{
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    margin-top: 12px;
+                    font-family: $dancing;
+                    font-weight: $bold;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 61px;
+                }
+                p{
+                    margin-top: 12px;
+                    font-family: $lato;
+                    font-weight: $regular;
+                    color: $blanco;
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .servicios{
+        margin-left: 0;
+        .contenedor-servicios{
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            .item01{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item02{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item03{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item04{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item05{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item06{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item07{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item08{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            .item09{
+                width: 350px;
+                height: 350px;
+                .texto{
+                    padding: 10px;
+                    h2{
+                        font-size: 40px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
